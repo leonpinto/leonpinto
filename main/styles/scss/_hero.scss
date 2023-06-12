@@ -1,0 +1,19 @@
+.hero {
+    height: 100vh;
+    background: url('../../images/background.jpg') no-repeat bottom center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10vw;
+    color: #fff;
+    box-shadow: 4px 4px 10px #727272;
+
+
+    h1 {
+        position: relative;
+        font-size: 4rem;
+        font-weight: 100;
+        text-align: center;
+    }
+}

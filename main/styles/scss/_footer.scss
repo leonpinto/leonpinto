@@ -1,0 +1,41 @@
+.footer-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+    .footer-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 5vh;
+
+        .footer-links {
+            list-style: none;
+            padding: 0 5vw;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+
+            #footer-link-header {
+                font-size: 1.5rem;
+                margin-bottom: 1vh;
+                font-weight: 600;
+            }
+
+            .footer-link {
+                margin: 0.5vh 0vw;
+
+                a {
+                    transition: 0.2s ease-in-out;
+                }
+
+                a:hover {
+                    color: #ff2800;
+                }
+            }
+        }
+    }
+}
