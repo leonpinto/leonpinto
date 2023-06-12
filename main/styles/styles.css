@@ -350,22 +350,22 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10vw 10vh;
+  padding: 5vw 5vh;
   max-width: 100vw;
 }
 .content-container p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   align-self: center;
   max-width: 50vw;
-  padding: 0 10vh;
+  padding: 5vh 4vw;
   text-align: center;
 }
 .content-container img {
-  padding-left: 5vw;
+  padding-left: 2vw;
+  max-width: 40vw;
 }
 .content-container .content-text {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   height: 55vh;
 }/*# sourceMappingURL=styles.css.map */
